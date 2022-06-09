@@ -8,15 +8,19 @@
     <title>Guess</title>
   </head>
   <body>
+    <div class="titleHeader">
+      <h3>Guess the number between 10 and 20</h3>
+    </div>
+
     <div class="container">
       <h1>Guess The Number</h1>
       <div class="newGameBtn">
-        <button>New Game</button>
+        <button id="newGameBtn">New Game</button>
       </div>
     </div>
 
     <div class="secretNumberBox">
-      <span>?</span>
+      <span class="number">?</span>
     </div>
 
     <div class="guessNumberBox">
@@ -24,10 +28,10 @@
         <table>
           <tr>
             <td class="title">Guess Number</td>
-            <td><input type="number" /></td>
+            <td><input type="number" id="guessNumber" /></td>
           </tr>
           <tr>
-            <td class="title">Check Number</td>
+            <td class="title"></td>
             <td><button class="checkBtn">Check</button></td>
           </tr>
         </table>
@@ -35,12 +39,16 @@
       <div class="scrollDiv">
         <table>
           <tr>
-            <td style="text-align: right" class="title">Hight Scroll :</td>
-            <td class="title">50</td>
+            <td style="text-align: right" class="title">Hint :</td>
+            <td class="title" id="hintText"></td>
           </tr>
           <tr>
-            <td style="text-align: right" class="title">Score :</td>
-            <td class="title">10</td>
+            <td style="text-align: right" class="title">Hight Score :</td>
+            <td class="title" id="hScore">0</td>
+          </tr>
+          <tr>
+            <td style="text-align: right" class="title">left times :</td>
+            <td class="title" id="leftTime">20</td>
           </tr>
         </table>
       </div>
