@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 150px;
+  border-bottom: 5px solid #fff;
+  padding-bottom: 100px;
+}
+
+.newGameBtn {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+}
+
+.newGameBtn > button {
+  background-color: blue;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 22px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.secretNumberBox {
+  border: 2px solid #fff;
+  position: absolute;
+  top: 240px;
+  right: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  color: black;
+}
+
+.guessNumberBox {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+input {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 22px;
+  color: black;
+}
+
+.title {
+  font-size: 22px;
+  padding-right: 20px;
+}
+
+.checkBtn {
+  background-color: brown;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
